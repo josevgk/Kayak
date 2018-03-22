@@ -6,5 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Menu.unity
+    guid: bd596a18355ce491c9698a3f0f03dbdc
+  - enabled: 1
     path: Assets/Kayak.unity
     guid: 73f24e3f21bcb449aa27dcad0645cd9b
+  - enabled: 1
+    path: Assets/Contrarreloj.unity
+    guid: c03481ab37bf140749d9dcc85ed3bc6b

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KayakUnity", "Assembly-CSharp.csproj", "{C47C3304-836D-0124-60D6-932824F31437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KayakUnity", "Assembly-CSharp-Editor.csproj", "{56DAEEC4-0B00-47D5-DCEA-AF9E48AA5004}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C47C3304-836D-0124-60D6-932824F31437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47C3304-836D-0124-60D6-932824F31437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47C3304-836D-0124-60D6-932824F31437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47C3304-836D-0124-60D6-932824F31437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56DAEEC4-0B00-47D5-DCEA-AF9E48AA5004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DAEEC4-0B00-47D5-DCEA-AF9E48AA5004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DAEEC4-0B00-47D5-DCEA-AF9E48AA5004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DAEEC4-0B00-47D5-DCEA-AF9E48AA5004}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Countdown.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Countdown.cs" Line="41" Column="33" />
+      <File FileName="Assets/Scripts/MoveKayak.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MenuPausa.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FotoResistencia.cs" Line="1" Column="1" />
+      <File FileName="Assets/GoogleVR/Scripts/UI/GvrReticle.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ClonacionElementos.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

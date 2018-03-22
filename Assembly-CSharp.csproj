@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DD5150BC-FD4B-1932-6AB8-488AB2AAE15C}</ProjectGuid>
+    <ProjectGuid>{C47C3304-836D-0124-60D6-932824F31437}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,8 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CounterOfDistance.cs" />
-     <Compile Include="Assets\CounterOfTime.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrHead.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrCameraUtils.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" />
@@ -91,7 +89,19 @@
      <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
-     <Compile Include="Assets\MoveKayak.cs" />
+     <Compile Include="Assets\Scripts\ClonacionElementos.cs" />
+     <Compile Include="Assets\Scripts\Countdown.cs" />
+     <Compile Include="Assets\Scripts\CounterOfDistance.cs" />
+     <Compile Include="Assets\Scripts\CounterOfTime.cs" />
+     <Compile Include="Assets\Scripts\FotoCrono.cs" />
+     <Compile Include="Assets\Scripts\FotoEntrenamiento.cs" />
+     <Compile Include="Assets\Scripts\FotoResistencia.cs" />
+     <Compile Include="Assets\Scripts\FotoVelocidad.cs" />
+     <Compile Include="Assets\Scripts\FotoVelocidadResistencia.cs" />
+     <Compile Include="Assets\Scripts\FotoVolver.cs" />
+     <Compile Include="Assets\Scripts\MenuPausa.cs" />
+     <Compile Include="Assets\Scripts\MoveKayak.cs" />
+     <Compile Include="Assets\Scripts\TipoContrarreloj.cs" />
      <Compile Include="Assets\Water\Water\Scripts\Displace.cs" />
      <Compile Include="Assets\Water\Water\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\Water\Water\Scripts\MeshContainer.cs" />
@@ -100,6 +110,10 @@
      <Compile Include="Assets\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\Water\Water\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\island\Scripts\CharacterMovement.cs" />
+     <Compile Include="Assets\island\Scripts\FixedTiling.cs" />
+     <Compile Include="Assets\island\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\island\Scripts\WaterScroller.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
      <None Include="Assets\Water\Water4\Shaders\FXWater4Simple.shader" />
@@ -133,7 +147,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/Josev/Documents/Canoeing Training copia/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/Josev/Documents/KayakUnity/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
